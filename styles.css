@@ -1,0 +1,62 @@
+/* Style Document */
+
+body {
+  background-color: lightblue;
+}
+
+p {
+	color: rgb(255,0,0);
+	font-size: 25px;
+}
+
+a {
+	padding: 0px;
+	padding-left: 0px;
+	margin: 0px;
+	margin-left: 0px;
+	height:120px;
+	width: 130px;
+}
+
+li {
+	color:blue;
+	padding: 0px;
+	padding-left: 0px;
+	margin: 0px;
+	margin-left: 0px;
+	height:120px;
+	width: 130px;
+}
+
+ol.options {
+	padding: 0px;
+}
+
+li:hover {	
+border: 5px solid red;
+transform: scale(1.1);
+
+}
+
+
+li.options {
+	padding: 0px;
+	padding-left: 0px;
+	margin: 0px;
+	margin-left: 0px;
+	height:120px;
+	width: 130px;
+
+}
+
+
+
+.title {
+	background: red;
+	margin: 0px;
+	text-align: center;
+}
+
+
+h1 {
+	padding: 0px;
