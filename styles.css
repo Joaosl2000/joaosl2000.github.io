@@ -4,33 +4,27 @@ body {
   background-color: lightblue;
 }
 
-
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   body {
-    background-color: white;
+    background-color: lightgrey;
   }
 }
-
-
-p {
-	color:blue;
-	font-size: 25px;
-}
-
 
 a {
 	color:blue;
 }
 
-.first
-{
-	color:green;
+.first {
+	color:orange;
 }
-.second
-{
+
+.second {
 	color:yellow;
 }
 
+.third {
+	color:green;
+}
 
 ol.options {
 	padding: 0px;
@@ -46,11 +40,11 @@ div {
 	color:red;
 	font-size: 25px;
 }
-span {
-	color:black;
-	font-size: 20px;
-}
 
+span {
+	color:grey;
+	font-size: 22px;
+}
 
 li.options {
 	padding: 0px;
@@ -59,10 +53,7 @@ li.options {
 	margin-left: 0px;
 	height:120px;
 	width: 130px;
-
 }
-
-
 
 .title {
 	margin: 0px;
@@ -70,11 +61,6 @@ li.options {
 	color:black;
 }
 
-.bye
-{
+.bye {
 	color:green;
 }
-
-
-h1 {
-	padding: 0px;
