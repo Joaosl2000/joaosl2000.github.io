@@ -4,29 +4,33 @@ body {
   background-color: lightblue;
 }
 
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: white;
+  }
+}
+
+
 p {
-	color: rgb(255,0,0);
+	color:blue;
 	font-size: 25px;
 }
 
+
 a {
-	padding: 0px;
-	padding-left: 0px;
-	margin: 0px;
-	margin-left: 0px;
-	height:120px;
-	width: 130px;
+	color:blue;
 }
 
-li {
-	color:blue;
-	padding: 0px;
-	padding-left: 0px;
-	margin: 0px;
-	margin-left: 0px;
-	height:120px;
-	width: 130px;
+.first
+{
+	color:green;
 }
+.second
+{
+	color:yellow;
+}
+
 
 ol.options {
 	padding: 0px;
@@ -36,6 +40,15 @@ li:hover {
 border: 5px solid red;
 transform: scale(1.1);
 
+}
+
+div {
+	color:red;
+	font-size: 25px;
+}
+span {
+	color:black;
+	font-size: 20px;
 }
 
 
@@ -52,9 +65,14 @@ li.options {
 
 
 .title {
-	background: red;
 	margin: 0px;
 	text-align: center;
+	color:black;
+}
+
+.bye
+{
+	color:green;
 }
 
 
